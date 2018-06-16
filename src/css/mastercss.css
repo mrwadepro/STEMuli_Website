@@ -1,0 +1,22 @@
+/*This css file defines the color scheme and font of all of the webpages so import into every new webpage*/
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  background-color: #d4d8d4;
+  color:#FDFFFC;
+}
+.button{
+    background-color:#FFFFFF;
+}
+
+.nav-pills .nav-link.active
+{
+  background-color: #FFFFFF;
+  color: #000000;
+
+}
+
+#cardimg
+{
+  height:300px;
+}

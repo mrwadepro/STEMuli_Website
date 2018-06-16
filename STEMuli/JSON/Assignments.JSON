@@ -1,0 +1,125 @@
+{
+  "Assignments": [{
+      "id": "1",
+      "Title": "Astronomer",
+      "Grade":["Freshman","Sophmore"],
+      "Subject":[
+        "Language Arts",
+        "Math",
+        "Science"
+      ],
+      "TopicM":["Geometry"],
+      "TopicLA":["College and Career Readiness Anchor Standards for Language","College and Career Readiness Anchor Standards for Speaking and Listening",
+    "College and Career Readiness Anchor Standards for Writing","College and Career Readiness Anchor Standards for Writing","Speaking and Listening Standards","Writing Standards"],
+      "TopicS":["Earth and Space Science","Engineering Design","Physical Science"],
+      "TopicSS":"",
+      "Description": "NASA has obtained permission from the United States government to construct a telescope that will be the world leader in space exploration for the next decade. This telescope may be based anywhere in the world or may be placed in space. You will need to inform NASA as to the best location for this telescope. Part of your presentation should focus on current exploration, and you may wish to utilize pictures and/or video from currently existing telescopes.",
+      "img" : "/img/Assignments/galaxy.jpg"
+    },
+    {
+        "id": "2",
+        "Title": "Botanical Design",
+        "Grade":["Freshman"],
+        "Subject":[
+          "Language Arts",
+          "Math",
+          "Science"
+        ],
+        "TopicM":["Geometry"],
+        "TopicLA":["College and Career Readiness Anchor Standards for Language","College and Career Readiness Anchor Standards for Reading","College and Career Readiness Anchor Standards for Speaking and Listening","College and Career Readiness Anchor Standards for Writing","Speaking and Listening Standards","Writing Standards"],
+        "TopicS":["Earth and Space Science","Engineering Design","Life Science"],
+        "TopicSS":"",
+        "Description": "Your firm has a vision for a state grant that allows one company to select a public space in the community and redesign it to improve its aesthetics and utility. Your firm wants an opportunity to prepare a community space that is aesthetically pleasing, incorporating elements of native plants from your region, containing educational materials related to these plants, and including areas for gathering and recreation. In creating your proposed design, keep in mind the wishes of the individuals from the community and the goals of the grant. The grant committee will be expecting to see that you maintained the integrity of the space while also promoting the goals of the grant.",
+        "img" : "/img/Assignments/botanical.jpg"
+      },
+      {
+          "id": "3",
+          "Title": "Civil Engineer: Urban Hear Islands",
+          "Grade":["Freshman"],
+          "Subject":[
+            "Math",
+            "Language Arts",
+            "Science",
+            "Social Studies"
+          ],
+          "TopicM":["Geometry"],
+          "TopicLA":["College and Career Readiness Anchor Standards for Language","College and Career Readiness Anchor Standards for Reading","College and Career Readiness Anchor Standards for Speaking and Listening","College and Career Readiness Anchor Standards for Writing","Speaking and Listening Standards","Writing Standards"],
+          "TopicS":["Earth and Space Science","Engineering Design","Life Science"],
+          "TopicSS":["Civic Ideals and Practices","Culture","Global Connections","Individual Development and Identity", "Individual Groups and Institutions", "People, Places and Environments", "Power, Authority and Governace","Productions, Distribution and Consumption","Science, Technology and Society","Time, Continuity and Change"],
+          "Description": "The United States Environmental Protection Agency has identified urban heat islands as areas that are hotter than nearby rural areas. This difference can be significant during the year and can increase greenhouse gas emissions and air pollution. Additionally, this phenomenon can increase peak energy demand, air conditioning costs and water quality. You may want to conduct additional research through the U.S. EPA and NASA to help you educate your audience. You will also need to provide them with practical strategies on how they can help minimize the urban heat islands through building practices and landscaping. Additionally, if they choose to do this they may want marketing materials that they can distribute within their city.",
+          "img" : "/img/Assignments/engineering.jpg"
+        },
+        {
+            "id": "3",
+            "Title":"Acoustical Consultant",
+            "Grade":["Sophmore"],
+            "Subject":[
+              "Language Arts"
+            ],
+            "TopicM":"null",
+            "TopicLA":["College and Career Readiness Anchor Standards for Language","College and Career Readiness Anchor Standards for Speaking and Listening","College and Career Readiness Anchor Standards for Writing","Reading Standards for Informational Text","Speaking and Listening Standards","Writing Standards"],
+            "TopicS":["Physical Science"],
+            "TopicSS":"null",
+            "Description": "Acoustics play an important role in all different types of buildings. Making sure that sound and information are successfully transmitted within a room is important in structures used for a variety of purposes, but especially so in concert halls. Concert halls must be carefully designed to maximize the sound experience of the audience. The more an audience can hear clearly and connect with the music being played by an orchestra or other group, the more successful the experience. As an acoustical consultant helping a group of architects design a new concert hall in the area, you will need to clearly communicate your knowledge of sound in a way the project architects will understand.  You will need to consider how sound waves are transmitted through the air, how the characteristics of a sound wave can affect the listener, and how certain materials and/or design attributes affect overall sound. The audience will need to be informed not only of the science behind acoustics, but of specific suggestions that you propose they include in their designs. ",
+            "img" : "/img/Assignments/acoustics.jpg"
+          },
+          {
+              "id": "4",
+              "Title":"The 1906 San Fransisco Earthquake and Fire",
+              "Grade": ["Freshman","Sophmore","Junior","Senior"],
+              "Subject":[
+                "Social Studies"
+              ],
+              "TopicM":["null"],
+              "TopicLA":["null"],
+              "TopicS":["null"],
+              "TopicSS":["Civic Ideals and Practices","Culture","Global Connections","Individual Development and Identity"],
+              "Description": "On April 18, 1906, an earthquake struck San Francisco. The earthquake lasted less than one minute but resulted in a number of fires lasting three days that helped destroy much of the city. More than 3,000 people died and more than half of the population of 400,000 people in the city were left homeless.  This event impacted the lives of a great many people. San Francisco rebuilt over time and much was learned about earthquakes and building practices as a result of this earthquake. ",
+              "img" : "/img/Assignments/earthquake.jpeg"
+            },
+            {
+                "id": "5",
+                "Title":"Nuclear Energy Scientist",
+                "Grade": ["Junior"],
+                "Subject":[
+                  "Math"
+                ],
+                "TopicM":["Algebra"],
+                "TopicLA":["null"],
+                "TopicS":["null"],
+                "TopicSS":["null"],
+                "Description": "The tsunami that occurred in Japan severely damaged the Fukushima nuclear power plant and has renewed public interest in nuclear energy. Many countries view nuclear energy as vital to meeting their needs for electricity output. Proponents suggest that nuclear power is critical as it is a clean energy. Opponents argue that nuclear waste and nuclear accidents contaminate the environment.",
+                "img" : "/img/Assignments/nuclear.jpg"
+              },
+              {
+                  "id": "6",
+                  "Title": "Automobile Efficiency Expert",
+                  "Grade": ["Senior"],
+                  "Subject":[
+                    "Math"
+                  ],
+                  "TopicM":["null"],
+                  "TopicLA":["null"],
+                  "TopicS":["Physical Science"],
+                  "TopicSS":["null"],
+                  "Description": "In the United States, the federal government has mandated improved automobile fuel efficiency in the form of the Corporate Average Fuel Economy (CAFE). During former president Obama's administration, the goal of roughly doubling automaker's fleet-wide vehicle fuel economy averages to 54.5 mpg was set to be accomplished by 2025. Your knowledge of science and manufacturing will be critical to the ongoing success of a small automaker. You will need to research ways to increase fuel economy in vehicles through the use of technology systems and lightweight materials for certain parts and areas of the automobile.",
+                   "img" : "/img/Assignments/automobile.jpg"
+                },
+                {
+                    "id": "7",
+                    "Title": "Microbiologist:Biofuels",
+                    "Grade": ["Senior"],
+                    "Subject":[
+                      "Science"
+                    ],
+                    "TopicM":["null"],
+                    "TopicLA":["null"],
+                    "TopicS":["Physical Science"],
+                    "TopicSS":["null"],
+                    "Description":"As energy companies look to replace fossil fuels, alternative energy sources are being considered. These sources will need to create a great deal of energy to meet man's energy needs and fully replace fossil fuels. The belief is that these fuels can help slowly reduce reliance on fossil fuels.",
+                    "img" : "/img/Assignments/microbiology.jpg"
+                  }
+
+
+  ]
+}

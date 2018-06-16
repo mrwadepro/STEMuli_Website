@@ -1,0 +1,24 @@
+hr{
+  background-color: #F1D302;
+  width:100%;
+}
+body{
+  background-color: #161925;
+}
+h1,h3{
+  color: #F1D302;
+}
+h2{
+  color:#FDFFFC;
+}
+.card{
+  background-color: #FDFFFC;
+  color: #161925;
+}
+.btn-link{
+  color: #161925;
+}
+#chartdiv {
+  width: 100%;
+  height: 500px;
+}

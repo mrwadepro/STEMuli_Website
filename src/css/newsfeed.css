@@ -1,0 +1,94 @@
+#profile {
+  width: 5%;
+  height: 5%;
+}
+.assignmentimg{
+  width: 80%;
+  height: 80%;
+}
+#poster {
+  width: 10%;
+  height: 10%;
+}
+
+.card-title, .card-text, p, h4 {
+  color: #161926;
+}
+
+hr {
+  height: 30px;
+}
+
+#post {
+  font-weight: normal;
+  font-size: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 10px;
+}
+
+ul li {
+  font-size: 10px;
+  display: inline-block;
+  clear: both;
+  padding: 8px;
+  border-radius: 30px;
+  margin-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #161926;
+}
+.borderless{border:none;}
+input {
+  padding: 2px;
+  border-radius: 30px;
+  margin-bottom: 2px;
+  border-bottom-right-radius: 1px;
+}
+
+.him {
+  background: #eee;
+  float: left;
+  font-weight:bold;
+}
+.innerCard{
+  font-size: 15px;
+}
+.me {
+  float: right;
+  background: #0084ff;
+  color: #fff;
+}
+
+.him+.me {
+  border-bottom-right-radius: 1px;
+}
+
+.me+.me {
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 1px;
+}
+
+.me:last-of-type {
+  border-bottom-right-radius: 30px;
+}
+
+.comment {
+  width: 50%;
+  margin-left: 30px;
+}
+
+.jumbotron {
+  background-color: #064870;
+}
+
+.btn,.btn:hover {
+  background-color: #0267C1;
+  color: #ffffff;
+}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/viewStem.css" crossorigin="anonymous">
+  <!--JS charts -->
+  <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+  <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+  <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+    <script src="/js/graph.js"></script>
+  <title>STEMuli Explore</title>
+</head>
+
+
+
+<body>
+  <div class="row h-100 justify-content-center">
+    <div class="logo">
+      <a href="#" onclick="redirectCorporation()">
+        <div clas="col"><img src="/img/logo.png" class="img-fluid" width="200" height="400" alt="Responsive image">
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <h1>STEMuli Content Use</h1>
+    <hr />
+    <div class="row h-100 justify-content-center">
+    </div>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Impact Dallas
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            <div class="container">
+              <div class="row">
+                <h5>Description</h5>
+<p>Dallas has the third highest childhood poverty rate among large US cities. About 1/3 children in Dallas live in poverty. - Dallas Mayor's Task Force on Poverty, September 2017 by KERANews. According to the Children’s Defense Fund, nearly one in five or 13.2 million children in the U.S. are poor, more than 1.2 million public school children are homeless. Scientist are now studying the effects of poverty on children's brain development. Research indicates that cognitive development is closely linked to socio-economic status. These effects impact cognitive performance both intellectually and emotionally. The gap starts in early childhood and continues throught brain development.</p>
+</div>
+<div id="chartdiv"></div>
+<div class="row">
+<h5>School Uses <br></h5>
+</div>
+<ul class="list-group">
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Bryan Adams High School
+    <span class="badge badge-primary badge-pill">14</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    W.H Adamson High School
+    <span class="badge badge-primary badge-pill">2</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    David W. Carter High School
+    <span class="badge badge-primary badge-pill">1</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Hillcrest High School
+    <span class="badge badge-primary badge-pill">1</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Lincoln High School
+    <span class="badge badge-primary badge-pill">1</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Thomas Jefferson High School
+    <span class="badge badge-primary badge-pill">1</span>
+  </li>
+</ul>
+
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Botanical Design
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            <div class="container">
+              <div class="row">
+                <h5>Description</h5>
+<p>Dallas has the third highest childhood poverty rate among large US cities. About 1/3 children in Dallas live in poverty. - Dallas Mayor's Task Force on Poverty, September 2017 by KERANews. According to the Children’s Defense Fund, nearly one in five or 13.2 million children in the U.S. are poor, more than 1.2 million public school children are homeless. Scientist are now studying the effects of poverty on children's brain development. Research indicates that cognitive development is closely linked to socio-economic status. These effects impact cognitive performance both intellectually and emotionally. The gap starts in early childhood and continues throught brain development.</p>
+</div>
+<div class="row">
+<h5>School Uses <br></h5>
+</div>
+<ul class="list-group">
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Bryan Adams High School
+    <span class="badge badge-primary badge-pill">14</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    W.H Adamson High School
+    <span class="badge badge-primary badge-pill">2</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    David W. Carter High School
+    <span class="badge badge-primary badge-pill">1</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Hillcrest High School
+    <span class="badge badge-primary badge-pill">1</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Lincoln High School
+    <span class="badge badge-primary badge-pill">1</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Thomas Jefferson High School
+    <span class="badge badge-primary badge-pill">1</span>
+  </li>
+</ul>
+
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Flight Controller
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            <div class="container">
+              <div class="row">
+                <h5>Description</h5>
+<p>Dallas has the third highest childhood poverty rate among large US cities. About 1/3 children in Dallas live in poverty. - Dallas Mayor's Task Force on Poverty, September 2017 by KERANews. According to the Children’s Defense Fund, nearly one in five or 13.2 million children in the U.S. are poor, more than 1.2 million public school children are homeless. Scientist are now studying the effects of poverty on children's brain development. Research indicates that cognitive development is closely linked to socio-economic status. These effects impact cognitive performance both intellectually and emotionally. The gap starts in early childhood and continues throught brain development.</p>
+</div>
+<div class="row">
+<h5>School Uses <br></h5>
+</div>
+<ul class="list-group">
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Bryan Adams High School
+    <span class="badge badge-primary badge-pill">14</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    W.H Adamson High School
+    <span class="badge badge-primary badge-pill">2</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    David W. Carter High School
+    <span class="badge badge-primary badge-pill">1</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Hillcrest High School
+    <span class="badge badge-primary badge-pill">1</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Lincoln High School
+    <span class="badge badge-primary badge-pill">1</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Thomas Jefferson High School
+    <span class="badge badge-primary badge-pill">1</span>
+  </li>
+</ul>
+
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script type="text/javascript" src="/js/redirect.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!--Logical JS files-->
+
+</body>
+
+</html>

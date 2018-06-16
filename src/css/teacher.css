@@ -1,0 +1,13 @@
+p{
+    z-index:-1;
+}
+.progressbarColor{
+  color:#161925;
+  background-color: #326ada;
+
+}
+hr{
+  background-color: #326ada;
+  width: 40%;
+
+}

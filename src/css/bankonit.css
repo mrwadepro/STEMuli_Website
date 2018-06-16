@@ -1,0 +1,66 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+}
+
+.card-text {
+  font-size: 20px;
+}
+#chartdiv {
+  width: 95%;
+  height: 800px;
+  font-size: 50px;
+  font-weight: bold;
+}
+li {
+  list-style-type: none;
+}
+
+.rounder {
+  border-radius: 20px;
+}
+
+p {
+  color: #000000;
+}
+
+#title {
+  font-size: 50px;
+  color: #ffffff;
+}
+
+h4 {
+  color: #000000;
+}
+.btn-link:hover{
+  text-decoration: none;
+}
+.btn-link.focus, .btn-link:focus{text-decoration: none;}
+.pillbtn{
+  color: #000000;
+}
+.pillbtn:hover{
+  color: #ffffff;
+}
+hr {
+  height: 2px;
+  background-color: #000000;
+}
+
+.jumbotron {
+  background-color: #0267C1;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.card {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+#standards {
+  font-size: 20px;
+}
+
+.row {
+  padding: 5px;
+}

@@ -1,0 +1,48 @@
+tr.spaceByHeader>td{
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+
+}
+tr.spaceBy>td {
+   text-align: center;
+}
+div.question{
+   text-align: center;
+
+}
+.col-centered{
+
+    margin: 0 auto;
+    float: none;
+}
+.boxsizingBorder {
+  width:100%;
+  margin:5px 0;
+  padding:3px;
+}
+legend{
+
+  color: #F1D302;
+  font-size: 36px;
+  margin: 0 0 10px 0;
+}
+h4 {
+  text-align: center;
+  color: #F1D302;
+  font-size: 24px;
+  margin: 0 0 10px 0;
+}
+.btn{
+  background-color: #F1D302;
+}
+.formControl{
+  width:100%;
+}
+.formInput{
+  width:40%;
+}
+hr{
+  background-color: #F1D302;
+  width:70%;
+}

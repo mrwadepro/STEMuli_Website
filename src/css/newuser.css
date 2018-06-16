@@ -1,0 +1,55 @@
+
+body{
+  margin:0;
+  padding:0;
+}
+
+.popover-header{
+  color:#161925
+}
+a{color:#fff;}
+.formbox{
+  width:100%;
+
+}
+.checkbox-wrapper {
+    height: 13px;
+    width: 13px;
+}
+.formbox p{
+  margin:0;
+  padding:1px;
+  font-weight:bold;
+}
+.formbox input{
+  margin-bottom: 20px;
+}
+.formbox input[type="email"],
+.formbox input[type="text"],
+.formbox input[type="password"]
+{
+background-color : #161925;
+border:none;
+border-bottom: 2px solid #E6ECF0;
+height:40px;
+}
+.formbox input[type="email"]:focus,
+.formbox input[type="text"]:focus,
+.formbox input[type="password"]:focus
+{
+border-bottom: 2px solid #FDFFFC;
+}
+textarea, input, button { outline: none; }
+
+.nav>li>a:hover,
+.nav>li>a:focus
+{
+  color:#161925;
+  background-color : #E6ECF0 ;
+}
+.btn,
+.btn:hover
+{
+  background-color : #E6ECF0 ;
+  color:#161925;
+}

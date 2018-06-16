@@ -1,0 +1,14 @@
+$primary:       #F1D302;
+$secondary:     $gray-600 !default;
+
+.nav-pills {
+  .nav-link {
+    @include border-radius($nav-pills-border-radius);
+  }
+
+  .nav-link.active,
+  .show > .nav-link {
+    color: #FDFFFC;
+    background-color: #F1D302 ;
+  }
+}

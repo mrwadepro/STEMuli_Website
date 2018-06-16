@@ -1,0 +1,23 @@
+{
+  "name": "stemuli_website",
+  "version": "1.0.0",
+  "description": "STEMuli App ",
+  "main": "app.js",
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Wade Aston",
+  "license": "ISC"
+}

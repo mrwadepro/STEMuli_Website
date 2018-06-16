@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>STEMuli</title>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link href="/css/mastercss.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/profile.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/bankonit.css" crossorigin="anonymous">
+
+  <!--Javascript files-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script type="text/JavaScript" src="/js/redirect.js"></script>
+  <script type="text/JavaScript" src="/js/form.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+  <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+  <script src="/js/bankonit_graph.js"></script>
+  <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+  <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+  <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+  <script src="/amcharts/plugins/dataloader/dataloader.min.js"></script>
+</head>
+
+<body>
+  <!--This is where the logo is-->
+
+  <div id="row" class="row h-100 justify-content-center" style="padding:30px;">
+    <img src="/img/microsoft/microsoft.png" class="img-fluid" alt="Responsive image">
+  </div>
+  <p id="title" class="row justify-content-center">Computer Basics</p>
+  &ensp;
+  <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active pillbtn" id="pills-assignment-tab" data-toggle="pill" href="#pills-assignment" role="tab" aria-controls="pills-assignment" aria-selected="true"><h3>Assignment</h3></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link pillbtn" id="pills-impact-tab" data-toggle="pill" href="#pills-impact" role="tab" aria-controls="pills-impact" aria-selected="false"><h3>Impact</h3></a>
+    </li>
+  </ul>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-assignment" role="tabpanel" aria-labelledby="pills-assignment-tab">
+      <div class="container-fluid">
+        <div class="row justify-content-center"><button style="margin:10px;" type="button" onclick="redirectMS();" class="btn btn-primary btn-lg">View Course</button>
+          <a href="#" data-toggle="tooltip" title="§111.39. Algebra I (4A-C)" data-placement="left"><button type="button" class="btn btn-primary btn-lg" style="margin:10px;"><span tabindex="0" role="button" data-toggle="popover"  data-trigger="focus" data-html="true" title="Standards" data-content="
+ §111.39. Algebra I
+   <br /> (4) Linear functions, equations, and inequalities. The student applies the mathematical process standards to formulate statistical relationships and evaluate their reasonableness based on real-world data. The student is expected to:
+   <ul>
+     <li> (A) calculate, using technology, the correlation coefficient between two quantitative variables and interpret this quantity as a measure of the strength of the linear association;</li></br>
+     <li>(B) compare and contrast association and causation in real-world problems; and</li></br>
+     <li> (C) write, with and without technology, linear functions that provide a reasonable fit to data to estimate solutions and make predictionsfor real-world problems.</li></br>
+ </ul>
+">Standards</span></button></a>
+
+        </div>
+        <div class="card-deck">
+          <div class="card text-center">
+            <div class="card-body">
+              <h4 class="card-title">Goal</h4>
+              <p class="card-text">Your goal is to complete your Microsoft Digital Literacy Certification.</p>
+            </div>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h4 class="card-title">Role</h4>
+              <p class="card-text">You are an intern at Microsoft.</p>
+            </div>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h4 class="card-title">Audience</h4>
+              <p class="card-text">You will present your skillset to the Microsoft hiring coordinator.
+              </p>
+            </div>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h4 class="card-title">Situation</h4>
+              <p class="card-text">Microsoft is looking to hire you for the skill set you exhibited during your internship with the company. </p>
+            </div>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h4 class="card-title">Products</h4>
+              <p class="card-text">Microsoft Certification / Resume / Personal Elevator Pitch</p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <p id="title" class="row justify-content-center">STEM Videos</p>
+        <div id="accordion" style="padding:20px;">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <h4 style="color:#000000;">Bill Gates on the new Microsoft Tour</h4>
+        </button>
+      </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rOqMawDj0LQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+                  <div class="col">
+                    <p style="display: block; text-indent: 1em;">Bill Gates talks with GeekWire about his ongoing work as a strategic adviser at Microsoft, and the company's evolution under CEO Satya Nadella.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <h4 style="color:#000000;">A visit to Microsoft Campus</h4>
+        </button>
+      </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/x54WVMUiVRI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+                  <div class="col">
+                    <p style="display: block; text-indent: 1em;">
+                      During the MVP Global Summit 2012, Redmond, WA
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <h4 style="color:#000000;">What's it like to work at Microsoft?</h4>
+        </button>
+      </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/aaglPKExHw8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+                  <div class="col">
+                    <p style="display: block; text-indent: 1em;">
+                      Here's a peek into what it's really like to work at Microsoft.<br /><br />
+
+For more information about what it's like to work at Microsoft head to: <a href="http://www.MicrosoftLife.com" style="color:#326ada;">http://www.MicrosoftLife.com</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-impact" role="tabpanel" aria-labelledby="pills-impact-tab">
+      <div class="row justify-content-center">
+        <!--Grade filter-->
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="freshmancbox" value="option1" checked onclick="selectDataset(0);">
+          <label class="form-check-label" for="inlineCheckbox">Freshman</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="sophmorecbox" value="option2" checked onclick="selectDataset(1);">
+          <label class="form-check-label" for="sophmorecbox">Sophmore</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="juniorcbox" value="option3" checked onclick="selectDataset(2);">
+          <label class="form-check-label" for="juniorcbox">Junior</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="seniorcbox" value="option3" checked onclick="selectDataset(3);">
+          <label class="form-check-label" for="seniorcbox">Senior</label>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <!--Math subject filter-->
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="freshmancbox" value="option1" checked onclick="selectDataset(4);">
+          <label class="form-check-label" for="inlineCheckbox">Algebra</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="sophmorecbox" value="option2" checked onclick="selectDataset(5);">
+          <label class="form-check-label" for="sophmorecbox">Geometry</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="juniorcbox" value="option3" checked onclick="selectDataset(6);">
+          <label class="form-check-label" for="juniorcbox">Pre-Calculus</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="seniorcbox" value="option3" checked onclick="selectDataset(7);">
+          <label class="form-check-label" for="seniorcbox">Calculus</label>
+        </div>
+      </div>
+      <div id="chartdiv"></div>
+    </div>
+  </div>
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+
+
+</body>
+
+</html>

@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>STEMuli</title>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:500" rel="stylesheet">
+  <link href="/css/mastercss.css" rel="stylesheet">
+  <link href="/css/newuser.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--This is where the logo is-->
+  <div class="container-fluid">
+    <div class="row h-100 justify-content-center">
+      <a name="redirectHome" onClick="redirectHome()"><img src="/img/logo.png" class="img-fluid" width="200" height="400" alt="Responsive image">
+    </a>
+    </div>
+    <div class="row h-100 justify-content-center">
+      <h4>Type of User</h4></div>
+    <div class="row h-100 justify-content-center">
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="pills-teacher-tab" data-toggle="pill" href="#pills-student" role="tab" aria-controls="pills-teacher" aria-selected="true">Student</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-teacher-tabe-tab" data-toggle="pill" href="#pills-teacher" role="tab" aria-controls="pills-teacher" aria-selected="false">Teacher</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-corporation-tab" data-toggle="pill" href="#pills-corporation" role="tab" aria-controls="pills-corporation" aria-selected="false">Corporation</a>
+        </li>
+      </ul>
+    </div>
+    <div class="row h-100 justify-content-center">
+      <div class="tab-content" id="pills-tabContent">
+      <!--Student-->
+        <div class="tab-pane fade show active" id="pills-student" role="tabpanel" aria-labelledby="pills-student-tab">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">First Name</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Kylo">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Last Name</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Ren">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-3">
+                <label for="inputZip">Date of Birth</label>
+                <input type="text" class="form-control" id="inputZip" placeholder="MM/DD/YYYY">
+            </div>
+
+            <div class="form-group col-md-4 ">
+              <label for="inputZip">Dream Job</label>
+              <input type="text" class="form-control" placeholder="Master Jedi" id="inputZip">
+          </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-7">
+              <label for="inputZip">Dream University</label>
+              <input type="text" class="form-control" id="inputZip" placeholder="Jedi Temple">
+          </div>
+
+          <div class="form-group col-md-4">
+            <label for="inputZip">Career Pathway</label>
+            <input type="text" class="form-control" placeholder="" id="inputZip">
+        </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-5">
+            <label for="inputZip">Favorite Company</label>
+            <input type="text" class="form-control" id="inputZip" placeholder="">
+        </div>
+
+        <div class="form-group col-md-7">
+          <label for="inputZip">World problem to solve</label>
+          <input type="text" class="form-control" placeholder="" id="inputZip">
+      </div>
+      </div>
+            <button type="submit" class="btn" ng-click="main.postMessage()">Create</button>
+          </form>
+        </div>
+        <!--TEACHER-->
+        <div class="tab-pane fade" id="pills-teacher" role="tabpanel" aria-labelledby="pills-teacher-tab">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">First Name</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Kylo">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Last Name</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Ren">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputZip">Date of Birth</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+          </div>
+            <button type="submit" class="btn" ng-click="main.postMessage()">Create</button>
+          </form>
+        </div>
+        <div class="tab-pane fade" id="pills-corporation" role="tabpanel" aria-labelledby="pills-corporation-tab">
+          <form>
+
+            <!--Teacher-->
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">First Name</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Kylo">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Last Name</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Ren">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </div>
+            <div class="form-group">
+            </div>
+            <button type="submit" class="btn" ng-click="main.postMessage()">Create</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+
+
+  </main>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/JavaScript" src="/js/redirect.js"></script>
+  <script type="text/JavaScript" src="/js/form.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  <script>
+    $(function() {
+      $('[data-toggle="popover"]').popover()
+    })
+  </script>
+</body>
+
+</html>

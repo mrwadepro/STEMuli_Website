@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>STEMuli</title>
+  <!-- Bootstrap core CSS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:500" rel="stylesheet">
+  <link href="/css/mastercss.css" rel="stylesheet">
+  <link href="/css/newuser.css" rel="stylesheet">
+  <link href="/css/district.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script type="text/JavaScript" src="/js/redirect.js"></script>
+  <script type="text/JavaScript" src="/js/form.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+  <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+  <script src="/js/district.js"></script>
+  <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+  <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+  <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+  <script src="/amcharts/plugins/dataloader/dataloader.min.js"></script>
+</head>
+
+<body>
+
+  <!--This is where the logo is-->
+  <div class="container-fluid">
+    <div class="row h-100 justify-content-center">
+      <a name="redirectHome" onClick="redirectHome()"><img src="/img/logo.png" class="img-fluid" width="200" height="400" alt="Responsive image">
+    </a>
+    </div>
+    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="pills-district-tab" data-toggle="pill" href="#pills-district" role="tab" aria-controls="pills-district" aria-selected="true">
+          <h3>District</h3>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="pills-demo-tab" data-toggle="pill" href="#pills-demo" role="tab" aria-controls="pills-demo" aria-selected="false">
+          <h3>Demographics</h3>
+        </a>
+      </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-district" role="tabpanel" aria-labelledby="pills-district-tab">
+        <div class="row justify-content-center">
+          <!--School filter-->
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        School
+      </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="adams" value="option1" checked onclick="selectDataset('Bryan Adams','adams');">
+                <label class="form-check-label" for="adams">Bryan Adams</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="adamson" value="option2" checked onclick="selectDataset('W.H Adamson','adamson');">
+                <label class="form-check-label" for="adamson">W.H Adamson</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="carter" value="option3" checked onclick="selectDataset('David W. Carter','carter');">
+                <label class="form-check-label" for="carter">David W. Carter</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="hillcrest" value="option3" checked onclick="selectDataset('Hillcrest','hillcrest');">
+                <label class="form-check-label" for="hillcrest">Hillcrest</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="lincoln" value="option3" checked onclick="selectDataset('Lincoln','lincoln');">
+                <label class="form-check-label" for="lincoln">Lincoln</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="jefferson" value="option3" checked onclick="selectDataset('Thomas Jefferson','jefferson');">
+                <label class="form-check-label" for="jefferson">Thomas Jefferson</label>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Grade
+      </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <!--Grade filter-->
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="freshmancbox" value="option1" checked onclick="generate();">
+                <label class="form-check-label" for="inlineCheckbox">Freshman</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="sophmorecbox" value="option2" checked onclick="generate();">
+                <label class="form-check-label" for="sophmorecbox">Sophmore</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="juniorcbox" value="option3" checked onclick="generate();">
+                <label class="form-check-label" for="juniorcbox">Junior</label>
+              </div>
+              <br />
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="seniorcbox" value="option3" checked onclick="generate();">
+                <label class="form-check-label" for="seniorcbox">Senior</label>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Subject
+          </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="freshmancbox" value="option1" checked onclick="generate();">
+                <label class="form-check-label" for="inlineCheckbox">Math</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="sophmorecbox" value="option2" checked onclick="generate();">
+                <label class="form-check-label" for="sophmorecbox">Language Arts</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="juniorcbox" value="option3" checked onclick="generate();">
+                <label class="form-check-label" for="juniorcbox">Science</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="seniorcbox" value="option3" checked onclick="generate();">
+                <label class="form-check-label" for="seniorcbox">Social Studies</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div id="chartdiv"></div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-demo" role="tabpanel" aria-labelledby="pills-demo-tab">
+        <div class="row justify-content-center">
+          <!--School filter-->
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Family Income
+      </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="adams" value="option1" checked onclick="generate1();">
+                <label class="form-check-label" for="adams">Less than $20,000</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="adamson" value="option2" checked onclick="generate1();">
+                <label class="form-check-label" for="adamson">$20,000 to $34,999</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="carter" value="option3" checked onclick="generate1();">
+                <label class="form-check-label" for="carter">$35,000 to $49,999</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="hillcrest" value="option3" checked onclick="generate1();">
+                <label class="form-check-label" for="hillcrest">$50,000 to $74,999</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="lincoln" value="option3" checked onclick="generate1();">
+                <label class="form-check-label" for="lincoln">$75,000 to $99,999</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="jefferson" value="option3" checked onclick="generate1();">
+                <label class="form-check-label" for="jefferson">$100,000 to $149,999</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="jefferson" value="option3" checked onclick="generate1();">
+                <label class="form-check-label" for="jefferson">$150,000 to $199,999</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="jefferson" value="option3" checked onclick="generate1();">
+                <label class="form-check-label" for="jefferson">$200,000 or more</label>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        School
+      </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="adams" value="option1" checked onclick="generate1();">
+                <label class="form-check-label" for="adams">Bryan Adams</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="adamson" value="option2" checked onclick="generate1();">
+                <label class="form-check-label" for="adamson">W.H Adamson</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="carter" value="option3" checked onclick="generate1();">
+                <label class="form-check-label" for="carter">David W. Carter</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="hillcrest" value="option3" checked onclick="generate1();">
+                <label class="form-check-label" for="hillcrest">Hillcrest</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="lincoln" value="option3" checked onclick="generate1();">
+                <label class="form-check-label" for="lincoln">Lincoln</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="jefferson" value="option3" checked onclick="generate1();">
+                <label class="form-check-label" for="jefferson">Thomas Jefferson</label>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Grade
+      </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <!--Grade filter-->
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="freshmancbox" value="option1" checked onclick="generate1();">
+                <label class="form-check-label" for="inlineCheckbox">Freshman</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="sophmorecbox" value="option2" checked onclick="generate1();">
+                <label class="form-check-label" for="sophmorecbox">Sophmore</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="juniorcbox" value="option3" checked onclick="generate1();">
+                <label class="form-check-label" for="juniorcbox">Junior</label>
+              </div>
+              <br />
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="seniorcbox" value="option3" checked onclick="generate1();">
+                <label class="form-check-label" for="seniorcbox">Senior</label>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Subject
+          </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="freshmancbox" value="option1" checked onclick="generate1();">
+                <label class="form-check-label" for="inlineCheckbox">Math</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="sophmorecbox" value="option2" checked onclick="generate1();">
+                <label class="form-check-label" for="sophmorecbox">Language Arts</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="juniorcbox" value="option3" checked onclick="generate1();">
+                <label class="form-check-label" for="juniorcbox">Science</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="seniorcbox" value="option3" checked onclick="generate1();">
+                <label class="form-check-label" for="seniorcbox">Social Studies</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div id="chartdiv1"></div>
+        </div>
+      </div>
+
+  </div>
+  <!-- FOOTER -->
+  </main>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/JavaScript" src="/js/redirect.js"></script>
+  <script type="text/JavaScript" src="/js/form.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  <script>
+    $(function() {
+      $('[data-toggle="popover"]').popover()
+    })
+  </script>
+</body>
+
+</html>

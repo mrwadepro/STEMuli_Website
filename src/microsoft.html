@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>STEMuli</title>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:500" rel="stylesheet">
+  <link href="/css/mastercss.css" rel="stylesheet">
+  <link  rel="stylesheet" href="/css/microsoft.css" crossorigin="anonymous">
+  <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+  <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+  <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+  <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+  <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+  <script src="/js/microsoft.js"></script>
+
+</head>
+
+<body>
+
+  <!--This is where the logo is-->
+    <br />
+<div class="container-fluid">
+  <div id="row" class="row justify-content-center">
+    <img src="/img/microsoft/microsoft.png" class="img-fluid" alt="Responsive image">
+  </div>
+</div>
+<br />
+  <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="pills-we-tab" data-toggle="pill" href="#pills-we" role="tab" aria-controls="pills-we" aria-selected="true">
+        <h3>Who We Are</h3>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="pills-STEM-tab" data-toggle="pill" href="#pills-STEM" role="tab" aria-controls="pills-STEM" aria-selected="false">
+        <h3>STEMuli</h3>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="pills-activity-tab" data-toggle="pill" href="#pills-activity" role="tab" aria-controls="pills-activity" aria-selected="false">
+        <h3>Activity</h3>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="pills-impact-tab" data-toggle="pill" href="#pills-impact" role="tab" aria-controls="pills-impact" aria-selected="false">
+        <h3>Impact</h3>
+      </a>
+    </li>
+  </ul>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-we" role="tabpanel" aria-labelledby="pills-we-tab">
+      <blockquote class="blockquote text-center">
+        <br />
+        <h5 style="margin:20px;">At Microsoft, our mission is to empower every person and every organization on the planet to achieve more. Our mission is grounded in both the world in which we live and the future we strive to create. Today, we live in a mobile-first, cloud-first world, and the transformation we are driving across our businesses is designed to enable Microsoft and our customers to thrive in this world. <br /><br />
+
+We do business in 170 countries and are made up of 114,000 passionate employees dedicated to fulfilling our mission of helping you and your organization achieve more.</h5>
+        <video width="700" controls>
+<source src="/img/tcb//IMG_0021.mov" type="video/mp4">
+<source src="/img/tcb/IMG_0021.mov" type="video/ogg">
+Your browser does not support HTML5 video.
+</video></blockquote>
+    </div>
+    <div class="tab-pane fade" id="pills-STEM" role="tabpanel" aria-labelledby="pills-home-tab">
+      <div class="row">
+        <h2 style="padding:20px;">Digital Literacy</h2>
+        <div class="row__inner">
+          <a href='#.' onclick="redirectcomputerbasics()">
+            <div class="tile" data-toggle="popover" data-trigger="hover" data-placement="right" data-html="true" title="Description" data-content="Computing is an important part of everyday life in the twenty-first century. From music and photos to banking and communicating, computers have changed the way we work and live. This course introduces you to the fundamentals of computing, explains the components of a computer, explores operating system basics, and shows you how to use a mouse and a keyboard.
+            ">
+              <div class="tile__media">
+                <img class="tile__img" src="/img/microsoft/computer.jpg" alt="" />
+              </div>
+              <div class="tile__details">
+                <div class="tile__title">
+                  <h5>Computer Basics</h5>
+                </div>
+              </div>
+            </div>
+          </a>
+          <div class="tile">
+            <div class="tile__media">
+              <img class="tile__img" src="/img/microsoft/www.jpg" alt="" />
+            </div>
+            <div class="tile__details">
+              <div class="tile__title">
+                <h5>The Internet, Cloud Services, <br />and the World Wide Web</h5>
+              </div>
+            </div>
+          </div>
+          <div class="tile">
+            <div class="tile__media">
+              <img class="tile__img" src="/img/microsoft/productivity.png" alt="" />
+            </div>
+            <div class="tile__details">
+              <div class="tile__title">
+                <h5>Productivity Programs</h5>
+              </div>
+            </div>
+          </div>
+          <div class="tile">
+            <div class="tile__media">
+              <img class="tile__img" src="/img/microsoft/privacy.jpg" alt="" />
+            </div>
+            <div class="tile__details">
+              <div class="tile__title">
+                <h5>Computer Security and <br />Privacy</h5>
+              </div>
+            </div>
+          </div>
+          <div class="tile">
+            <div class="tile__media">
+              <img class="tile__img" src="/img/microsoft/lifestyle.jpg" alt="" />
+            </div>
+            <div class="tile__details">
+              <div class="tile__title">
+                <h5>Digital Lifestyles</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-activity" role="tabpanel" aria-labelledby="pills-activity-tab">
+      <div class="container-fluid">
+        <ul class="list-group" style="margin:50px;">
+          <li class="list-group-item">Microsoft Replied to Frank Gerardo's <a href "#" style="color:#006DBF">post.</a></li>
+          <li class="list-group-item">Microsoft posted new STEM called <a href "#" style="color:#006DBF">Bank On It.</a></li>
+          <li class="list-group-item">Microsoft posted new STEM called <a href "#" style="color:#006DBF">Borrowing Basics.</a></li>
+          <li class="list-group-item">Microsoft Replied to Luke Skywalker's <a href "#" style="color:#006DBF">post.</a></li>
+          <li class="list-group-item">Microsoft joined STEMuli.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-impact" role="tabpanel" aria-labelledby="pills-impact-tab">
+      <div id="microsoftgraph"></div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/JavaScript" src="/js/redirect.js"></script>
+  <script type="text/JavaScript" src="/js/form.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  <script>
+    $(function() {
+      $('[data-toggle="popover"]').popover()
+    })
+  </script>
+
+</body>
+
+</html>

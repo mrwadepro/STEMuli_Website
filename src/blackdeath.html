@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>STEMuli</title>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link href="/css/mastercss.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/profile.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/bankonit.css" crossorigin="anonymous">
+
+  <!--Javascript files-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script type="text/JavaScript" src="/js/redirect.js"></script>
+  <script type="text/JavaScript" src="/js/form.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+  <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+  <script src="/js/bankonit_graph.js"></script>
+  <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+  <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+  <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+  <script src="/amcharts/plugins/dataloader/dataloader.min.js"></script>
+</head>
+
+<body>
+  <!--This is where the logo is-->
+
+  <div id="row" class="row h-100 justify-content-center" style="padding:30px;">
+    <img src="/img/att/attlogo.png" class="img-fluid" alt="Responsive image">
+  </div>
+  <p id="title" class="row justify-content-center">Introduction to the Bubonic Plague</p>
+  &ensp;
+  <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active pillbtn" id="pills-assignment-tab" data-toggle="pill" href="#pills-assignment" role="tab" aria-controls="pills-assignment" aria-selected="true"><h3>Assignment</h3></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link pillbtn" id="pills-impact-tab" data-toggle="pill" href="#pills-impact" role="tab" aria-controls="pills-impact" aria-selected="false"><h3>Impact</h3></a>
+    </li>
+  </ul>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-assignment" role="tabpanel" aria-labelledby="pills-assignment-tab">
+      <div class="container-fluid">
+        <div class="row justify-content-center"><button style="margin:10px;" type="button" onclick="redirectDoc_Att();" class="btn btn-primary btn-lg">Download Doc</button>
+          <button type="button" onclick="redirectDoc_Att_presentation();" class="btn btn-primary btn-lg" style="margin:10px;">Download Presentation</button>
+          <a href="#" data-toggle="tooltip" title="§111.39. Algebra I (4A-C)" data-placement="left"><button type="button" class="btn btn-primary btn-lg" style="margin:10px;"><span tabindex="0" role="button" data-toggle="popover"  data-trigger="focus" data-html="true" title="Standards" data-content="
+ §111.39. Algebra I
+   <br /> (4) Linear functions, equations, and inequalities. The student applies the mathematical process standards to formulate statistical relationships and evaluate their reasonableness based on real-world data. The student is expected to:
+   <ul>
+     <li> (A) calculate, using technology, the correlation coefficient between two quantitative variables and interpret this quantity as a measure of the strength of the linear association;</li></br>
+     <li>(B) compare and contrast association and causation in real-world problems; and</li></br>
+     <li> (C) write, with and without technology, linear functions that provide a reasonable fit to data to estimate solutions and make predictionsfor real-world problems.</li></br>
+ </ul>
+">Standards</span></button></a>
+
+        </div>
+        <div class="card-deck">
+          <div class="card text-center">
+            <div class="card-body">
+              <h4 class="card-title">Goal</h4>
+              <p class="card-text">You are a member of AT&T’s Disaster Relief Team. A virus has broken out on the Big Island in Hawaii. It is up to your team to decide if the AT&T employees located in Hawaii should be quarantined or released to fly home to their families.</p>
+            </div>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h4 class="card-title">Role</h4>
+              <p class="card-text">You are the director of AT&T’s Disaster Relief Team.</p>
+            </div>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h4 class="card-title">Audience</h4>
+              <p class="card-text">You will make a presentation to the executives at AT&T and a panel of judges to determine whether your team has come up with the best plan to protect our employees and the community.
+              </p>
+            </div>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h4 class="card-title">Situation</h4>
+              <p class="card-text">There has been a viral outbreak within a small community on the Big Island in Hawaii. </p>
+            </div>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h4 class="card-title">Products</h4>
+              <p class="card-text">Open a Bank Account, Balance a Check Book, Select a Savings Account.</p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <p id="title" class="row justify-content-center">STEM Videos</p>
+        <div id="accordion" style="padding:20px;">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <h4 style="color:#000000;">AT&T's Incredible Disaster Recovery Team: A Video Tour</h4>
+        </button>
+      </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/bJILzLhdCmU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+                  <div class="col">
+                    <p style="display: block; text-indent: 1em;">We all love smartphones. Without them, Pocketnow wouldn't exist, and my decades-old dream of living in Star Trek's universe of awesome pocketable gadgets would never have been realized. It's fair to say that everyone here -editors and readers alike- understands and appreciates smartphones and other connected devices. But sometimes we take our eye off the significance of the infrastructure supporting those devices. Sure, we take a peek at carrier equipment here and there, but too often the billions of dollars' worth of network hardware that enables our portable gadgets goes completely unappreciated. Unfortunately, it often takes a calamity, along with the associated disaster recovery efforts, to remind us that cellular networks are there - and they're not invulnerable to attack from either natural or man-made forces.<br /></p>
+
+<p style="display: block; text-indent: 1em;">That's where AT&T's Network Disaster Recovery Team comes in. When an earthquake, tornado, hurricane, or a man-made catastrophe damages or destroys part of that crucial communications infrastructure, this special division of the nation's second-largest carrier mobilizes to get the phones ringing and the modems chirping again. Since its inception, AT&T has poured over $600 million into the program, which today boasts over 320 self-contained mobile equipment trailers manned by an all-volunteer force of engineers and network technicians. These people train constantly to make certain they're ready to restore communications capability to an affected area as quickly as possible, and one of those training exercises is happening right now in Hartford, Connecticut.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <h4 style="color:#000000;">AT&T: The Company Behind the Telephone</h4>
+        </button>
+      </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/T58NGMrUp0M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+                  <div class="col">
+                    <p style="display: block; text-indent: 1em;">
+                      AT&T Inc. is an American multinational telecommunications conglomerate, headquartered at Whitacre Tower in downtown Dallas, Texas. AT&T is the world's largest telecommunications company. AT&T is the second largest provider of mobile telephone services and the largest provider of fixed telephone services in the United States, and also provides broadband subscription television services through DirecTV; combined with AT&T's legacy U-verse service, this also makes AT&T the largest pay television operator. AT&T is the second-largest company in Texas, behind ExxonMobil. As of February 2017, AT&T is the 12th largest company in the world (non-oil and overall) as measured by a composite of revenues, profits, assets and market valuation. AT&T is the largest telecommunications company in the world by revenue. As of 2017, it is also the 18th-largest mobile telecom operator in the world, with 134 million mobile customers. AT&T was ranked at #4 on the 2017 rankings of the world's most valuable brands published by Brand Finance.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-impact" role="tabpanel" aria-labelledby="pills-impact-tab">
+      <div class="row justify-content-center">
+        <!--Grade filter-->
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="freshmancbox" value="option1" checked onclick="selectDataset(0);">
+          <label class="form-check-label" for="inlineCheckbox">Freshman</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="sophmorecbox" value="option2" checked onclick="selectDataset(1);">
+          <label class="form-check-label" for="sophmorecbox">Sophmore</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="juniorcbox" value="option3" checked onclick="selectDataset(2);">
+          <label class="form-check-label" for="juniorcbox">Junior</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="seniorcbox" value="option3" checked onclick="selectDataset(3);">
+          <label class="form-check-label" for="seniorcbox">Senior</label>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <!--Math subject filter-->
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="freshmancbox" value="option1" checked onclick="selectDataset(4);">
+          <label class="form-check-label" for="inlineCheckbox">Algebra</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="sophmorecbox" value="option2" checked onclick="selectDataset(5);">
+          <label class="form-check-label" for="sophmorecbox">Geometry</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="juniorcbox" value="option3" checked onclick="selectDataset(6);">
+          <label class="form-check-label" for="juniorcbox">Pre-Calculus</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="seniorcbox" value="option3" checked onclick="selectDataset(7);">
+          <label class="form-check-label" for="seniorcbox">Calculus</label>
+        </div>
+      </div>
+      <div id="chartdiv"></div>
+    </div>
+  </div>
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+
+
+</body>
+
+</html>
